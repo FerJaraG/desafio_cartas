@@ -44,5 +44,8 @@ while opcion = gets.chomp
 	when 'salir'
 		puts 'Saliendo'
 		break
+	else
+		puts 'Ingrese opcion valida'
+		menu
 	end
 end
